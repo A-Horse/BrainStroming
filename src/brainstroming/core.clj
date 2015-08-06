@@ -5,7 +5,9 @@
   [x]
   (println x "Hello, World!"))
 
+
+
 (defn -main
     "Game"
     [& args]
-    (print "hello world!"))
+    (foo args))
