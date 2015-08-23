@@ -1,13 +1,9 @@
 (ns brainstroming.core)
-
-(defn foo
-  "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
-
+(require 'brainstroming.brain)
 
 
 (defn -main
-    "Game"
+    "BrainStroming"
     [& args]
-    (foo args))
+    (brainstroming.brain/start))
+
