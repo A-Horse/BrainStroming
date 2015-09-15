@@ -12,7 +12,7 @@
     "gulp-load-plugins": "^0.10.0",
     "gulp-rename": "^1.2.0",
     "gulp-replace": "^0.5.3",
-    "jquery": "1.11.3",
+    "jquery": "1.11.2",
     "jshint-stylish": "^1.0.1",
     "mocha": "^2.2.4",
     "normalize.css": "3.0.3",
@@ -34,11 +34,14 @@
     "type": "MIT",
     "url": "https://github.com/h5bp/html5-boilerplate/blob/master/LICENSE.txt"
   },
-  "name": "html5-boilerplate",
+  "name": "front",
   "private": true,
   "scripts": {
     "build": "gulp build",
     "test": "gulp archive && mocha --reporter spec --timeout 5000"
   },
-  "version": "5.2.0"
+  "version": "0.0.1",
+  "dependencies": {
+    "gulp-sass": "^2.0.4"
+  }
 }
